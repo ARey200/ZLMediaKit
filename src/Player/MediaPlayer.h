@@ -14,7 +14,7 @@
 #include <memory>
 #include <string>
 #include "PlayerBase.h"
-
+#define test 2
 namespace mediakit {
 
 class MediaPlayer : public PlayerImp<PlayerBase, PlayerBase> {
