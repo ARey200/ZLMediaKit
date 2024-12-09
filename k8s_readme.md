@@ -28,4 +28,5 @@
 
 - 如果需要自定义配置文件，可以使用`configMap`挂载到pod中`/opt/media/conf/`目录来覆盖默认配置文件
 - 如果需要自定义证书，请替换源码目录`tests`目录下面的`default.pem`证书文件，zlmedia在pod启动时候会默认加载。
+- test
 
