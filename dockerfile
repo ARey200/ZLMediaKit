@@ -2,13 +2,13 @@ FROM ubuntu:20.04 AS build
 ARG MODEL
 #shell,rtmp,rtsp,rtsps,http,https,rtp
 EXPOSE 1935/tcp
-EXPOSE 554/tcp
-EXPOSE 80/tcp
-EXPOSE 443/tcp
+EXPOSE 8554/tcp
+EXPOSE 8070/tcp
+EXPOSE 8843/tcp
 EXPOSE 10000/udp
 EXPOSE 10000/tcp
 EXPOSE 8000/udp
-EXPOSE 8000/tcp
+EXPOSE 8060/tcp
 EXPOSE 9000/udp
 
 # ADD sources.list /etc/apt/sources.list
